@@ -13,12 +13,14 @@ var {
   Text,
 } = require('react-native');
 
+var window = require('Dimensions').get('window');
+
 var IMCell = React.createClass({
 
   getInitialState() {
     return {
       viewHight: null,
-      viewWidth: 320/5*4,
+      viewWidth: window.width/3*2,
       opacity: 0,
     }
   },
