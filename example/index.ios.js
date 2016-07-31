@@ -15,7 +15,7 @@ var {
 } = require('react-native');
 
 var InvertibleScrollView = require('react-native-invertible-scroll-view');
-var IMCell = require('./iMCell');
+var BubbleText = require('react-native-message-bubble');
 var TextInputView = require('./textInputView');
 
 var Example = React.createClass({
@@ -74,7 +74,7 @@ var Example = React.createClass({
   _renderRow(rowData, sectionID, rowID) {
     var messageType = rowData.userType != 'robot';
     return (
-      <IMCell key={rowID} messages={rowData.messages} messageType={messageType}/>
+      <BubbleText key={rowID} messages={rowData.messages} messageType={messageType}/>
     )
   },
 

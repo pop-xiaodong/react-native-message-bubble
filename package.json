@@ -1,0 +1,31 @@
+{
+  "name": "react-native-message-bubble",
+  "version": "1.0.3",
+  "description": "react-native message bubble, for now just ios.",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pop-xiaodong/react-native-message-bubble.git"
+  },
+  "keywords": [
+    "react-native",
+    "bubble",
+    "speech-bubble",
+    "message-bubble",
+    "speech",
+    "message",
+    "chat"
+  ],
+  "author": "alphamao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pop-xiaodong/react-native-message-bubble/issues"
+  },
+  "homepage": "https://github.com/pop-xiaodong/react-native-message-bubble#readme"
+}
