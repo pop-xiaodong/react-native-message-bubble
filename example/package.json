@@ -9,6 +9,6 @@
     "react": "15.2.1",
     "react-native": "^0.30.0",
     "react-native-invertible-scroll-view": "^1.0.0",
-    "react-native-message-bubble": "^1.0.3"
+    "react-native-message-bubble": "^1.0.6"
   }
 }

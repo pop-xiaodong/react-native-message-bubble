@@ -1,3 +1,5 @@
 rootProject.name = 'example'
 
 include ':app'
+include ':react-native-message-bubble'
+project(':react-native-message-bubble').projectDir = new File(settingsDir, '../node_modules/react-native-message-bubble/android')
