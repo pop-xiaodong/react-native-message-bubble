@@ -22,6 +22,10 @@
     "message",
     "chat"
   ],
+  "dependencies": {
+    "create-react-class": "^15.6.3",
+    "prop-types": "^15.6.1"
+  },
   "author": "alphamao",
   "license": "ISC",
   "bugs": {
