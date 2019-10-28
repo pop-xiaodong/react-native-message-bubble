@@ -1,6 +1,6 @@
 {
   "name": "react-native-message-bubble",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "react-native message bubble, both ios and android",
   "main": "index.js",
   "directories": {
